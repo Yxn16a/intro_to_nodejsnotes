@@ -20,3 +20,4 @@
 // read:breaking the code into peaces and perse them(or evaluate them by v8 and the result
 // will be printed on the screen) 
 // REPL IS GOOD for testing not for saving the code for a long period of time
+// we can run code using terminal node run
