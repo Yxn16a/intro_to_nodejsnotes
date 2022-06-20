@@ -1,9 +1,9 @@
 // mission: the first application
-const mission = 'learn'; 
+const mission = 'learn';
 if (mission === 'learn') {
     console.log('time to learn');
-} else { 
-    console.log(`is ${mission } really more fun?`); 
+} else {
+    console.log(`is ${mission } really more fun?`);
 }
 // nodes comes with its own apis that are specific to it
 // process.argv: this contains an array of the location of our files
