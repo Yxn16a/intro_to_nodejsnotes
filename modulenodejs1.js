@@ -8,12 +8,13 @@
 // CREATING OUR OWN HTTPS MODULE
 // url for destination to get data url and data to get
 // single dot means that different levels or current folder
-
-const request = require('./modulenodejsrequest')
-const response = require('./modulenodejsresponse')
+// the use of brackets around the function is a good way to decrease number of code 
+// and being specific where the function come from
+const {send} = require('./modulenodejsrequest')
+const {read} = require('./modulenodejsresponse')
 function makeRequest(url, data) { 
-    request.send(url, data); 
-    return response.read(); 
+    send(url, data); 
+    return read(); 
 }
 const returnedData = makeRequest('https://google.com', 'hello'); 
 console.log(returnedData)
