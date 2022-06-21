@@ -10,8 +10,8 @@
 // single dot means that different levels or current folder
 // the use of brackets around the function is a good way to decrease number of code 
 // and being specific where the function come from
-const {send} = require('./modulenodejsrequest')
-const {read} = require('./modulenodejsresponse')
+const {send} = require('./commonModuleNodejsRequest')
+const {read} = require('./commonModuleNodejsResponse')
 function makeRequest(url, data) { 
     send(url, data); 
     return read(); 
