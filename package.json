@@ -1,0 +1,15 @@
+
+{
+  "name": "nodejslearningnotes",
+  "version": "1.0.0",
+  "description": "These are the notes that I am taking while I learn node js",
+  "main": "asynch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
